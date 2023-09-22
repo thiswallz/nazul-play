@@ -3,6 +3,7 @@
     "baseUrl": "src",
     "target": "ES5",
     "lib": ["DOM", "DOM.Iterable", "ES2015"],
+    "ignoreDiagnostics": [2345],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
