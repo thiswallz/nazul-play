@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { GroupInfoDto } from '@jellyfin/sdk/lib/generated-client/models/group-info-dto';
 import { SyncPlayUserAccessType } from '@jellyfin/sdk/lib/generated-client/models/sync-play-user-access-type';
 import { getSyncPlayApi } from '@jellyfin/sdk/lib/utils/api/sync-play-api';

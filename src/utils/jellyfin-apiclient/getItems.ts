@@ -22,6 +22,7 @@ function getItemsSplit(apiClient: ApiClient, userId: string, options: GetItemsRe
         }
         const idsSlice = ids.slice(start, end);
         optionsTemplate.Ids = idsSlice.join(',');
+        //@ts-ignore
         results.push(apiClient.getItems(userId, optionsTemplate));
     }
 

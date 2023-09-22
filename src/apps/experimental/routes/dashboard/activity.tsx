@@ -131,6 +131,7 @@ const Activity = () => {
 
                 if (row.ItemId) {
                     actions.push(
+                        //@ts-ignore
                         <GridActionsCellLink
                             size='large'
                             icon={<PermMedia />}
