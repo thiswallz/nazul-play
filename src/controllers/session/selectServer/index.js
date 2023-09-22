@@ -104,6 +104,7 @@ function showServerConnectionFailure() {
 
 export default function (view, params) {
     function connectToServer(server) {
+        console.log('connecting to server', server);
         loading.show();
         ServerConnections.connectToServer(server, {
             enableAutoLogin: appSettings.enableAutoLogin()
