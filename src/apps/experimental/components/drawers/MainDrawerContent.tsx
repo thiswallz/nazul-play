@@ -174,7 +174,7 @@ const MainDrawerContent = () => {
             <List>
                 <ListItem>
                     <ListItemText
-                        primary={systemInfo?.ServerName ? systemInfo.ServerName : 'Jellyfin'}
+                        primary={systemInfo?.ServerName ? systemInfo.ServerName : 'Nazul'}
                         secondary={systemInfo?.Version ? `v${systemInfo.Version}` : ''}
                     />
                 </ListItem>
