@@ -7,7 +7,7 @@
     "theme_color": "#101010",
     "background_color": "#101010",
     "display": "standalone",
-    "orientation": "landscape",
+    "orientation": "any",
     "icons": [
         {
             "sizes": "72x72",
