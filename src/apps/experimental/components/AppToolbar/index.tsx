@@ -107,7 +107,7 @@ const AppToolbar: FC<AppToolbarProps> = ({
                     component='div'
                     sx={{ display: { xs: 'none', sm: 'inline-block' } }}
                 >
-                    Jellyfin
+                   NAzul
                 </Typography>
             </Box>
 

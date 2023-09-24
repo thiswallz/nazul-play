@@ -977,7 +977,7 @@ function setDefaultTitle () {
         pageTitleElement.innerHTML = '';
     }
 
-    document.title = 'Jellyfin';
+    document.title = 'NAzul Play';
 }
 
 function setTitle (title) {
@@ -1003,7 +1003,7 @@ function setTitle (title) {
         pageTitleElement.innerText = html || '';
     }
 
-    document.title = title || 'Jellyfin';
+    document.title = title || 'NAzul Play';
 }
 
 function setTransparentMenu (transparent) {
